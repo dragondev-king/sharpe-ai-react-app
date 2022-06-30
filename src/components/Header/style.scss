@@ -1,0 +1,25 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.header {
+  height: $header-height;
+  padding: 33px 42px 0 15px;
+  @include default-divider;
+  
+  .dashboard-text {
+    color: white;
+    font-size: 32px;
+    line-height: 1.2;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &-right {
+    @include default-divider;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 350px;
+  }
+}
+

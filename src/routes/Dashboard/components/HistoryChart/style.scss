@@ -1,0 +1,23 @@
+.history-chart {
+  margin-top: 30px;
+  background-color: #302C3F;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  .data-wrapper {
+    color: white;
+    padding-left: 50px;
+
+    h4 {
+      margin-top: -15px;
+      color: #999CA3;
+
+    }
+  }
+  
+  .VictoryContainer {
+    // height: 25% !important;
+    border: none !important;
+  }  
+}

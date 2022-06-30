@@ -1,0 +1,27 @@
+.card-wrapper {
+  position: relative;
+
+  .image {
+    text-align: center;
+    margin-top: 50px;
+    height: 150px;
+
+    img {
+      height: 70%;
+    }
+  }
+
+  .coming-soon {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    color: #BDBDBD;
+    font-family: THICCCBOI;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

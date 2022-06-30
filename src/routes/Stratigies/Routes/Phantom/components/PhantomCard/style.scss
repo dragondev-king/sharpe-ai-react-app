@@ -1,0 +1,36 @@
+.card-container {
+  .card-wrapper {
+    position: relative;
+
+    .title-wrapper {
+      position: absolute;
+      width: 111px;
+      padding-top: 5px;
+      height: 35px;
+      top: -25px;
+      z-index: 99;
+      left: 77px;
+      border-radius: 5px;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      text-align: center;
+  
+      span {
+        font-size: 11px;
+        color: #BDBDBD;
+        font-family: THICCCBOI;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+
+    .phantom-image {
+      margin-top: 15px;
+    }
+
+    .img {
+      height: 70%;
+    }
+  }
+}

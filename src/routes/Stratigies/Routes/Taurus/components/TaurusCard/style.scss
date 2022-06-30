@@ -1,0 +1,76 @@
+@import '../../../../../../scss/mixins';
+
+.card-container {
+
+  .card-wrapper {
+    width: 233px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #1a274b;
+    padding: 10px 15px 10px 15px;
+    color: #2775CA;
+
+    .card-header {
+      @include default-divider;
+      justify-content: space-between;
+      opacity: 100%;
+
+      .values-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .small-value {
+          color: #BDBDBD;
+          font-size: 14px;
+          opacity: 70%;
+        }
+      }
+    }
+
+    .logo-container {
+      width: 100%;
+      @include default-divider;
+      flex-direction: row-reverse;
+      justify-content: center;
+      position: relative;
+      margin-top: 30px;
+      margin-bottom: 35px;
+      height: 32%;
+
+      .left {
+        position: absolute;
+        left: 25px;
+      }
+      .right {
+        position: absolute;
+        left: 100px;
+      }
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .btn-wrapper {
+      text-align: center;
+      margin-top: 40px;
+
+      .btn {
+        color: #BDBDBD;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        background: #1f3258;
+        width: 90%;
+        height: 35px;
+
+        &:hover {
+          background: #274179;
+        }
+      }
+    }
+  }
+}

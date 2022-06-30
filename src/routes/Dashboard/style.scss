@@ -1,0 +1,56 @@
+@import '../../scss/mixins';
+
+.dashboard {
+  height: 100%;
+
+  .card-wrapper {
+    @include default-divider;
+    justify-content: space-between;
+    padding-bottom: 3%;
+
+    @media (max-width: 1285px) {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__first {
+      padding-bottom: 10%;
+      @media (max-width: 1285px) {
+        display: flex;
+        flex-direction: column;
+
+        .card {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  &-left {
+    padding: 0 15px 0 15px;
+  }
+  &-right {
+   padding: 0 15px 0 15px;
+    .text-wrapper {
+      color: #FFFFFF;
+      font-family: THICCCBOI;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .history-chart-wrapper {
+      display: flex;
+      flex-direction: column;
+      // position: absolute;
+      // bottom: 30px;
+    }
+  }
+}

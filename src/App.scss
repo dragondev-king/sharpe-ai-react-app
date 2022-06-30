@@ -1,0 +1,93 @@
+@import 'scss/colors';
+@import 'scss/variables';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'THICCCBOI-Light';
+  src:  url('assets/fonts/THICCCBOI-Light.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'THICCCBOI';
+  src:  url('assets/fonts/THICCCBOI-Regular.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'THICCCBOI-Extrabold';
+  src:  url('assets/fonts/THICCCBOI-ExtraBold.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'THICCCBOI-Bold';
+  src:  url('assets/fonts/THICCCBOI-Bold.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'THICCCBOI-Medium';
+  src:  url('assets/fonts/THICCCBOI-Medium.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'THICCCBOI-SemiBold';
+  src:  url('assets/fonts/THICCCBOI-SemiBold.woff2') format('woff2'),
+}
+
+.main {
+  background: url('./assets/pngs/background-image.png') no-repeat;
+  background-size: cover;
+}
+
+.asset-container {
+  padding: 16px 32px;
+  background-color: rgba(27, 28, 49, 1);
+  border-radius: 10px;
+  color: rgba(184, 184, 184, 1);
+  line-height: 15px;
+  font-family: 'THICCCBOI';
+}
+
+.invention-container {
+  padding: 8px 12px;
+  background-color: rgba(27, 28, 49, 1);
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  font-family: 'THICCCBOI';
+}
+
+.invention-container img {
+  padding: 0 16px;
+  border-radius: 10px;
+  background-color: rgba(38, 39, 59, 1);
+  margin: 0 8px 0 0;
+}
+
+.position-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+
+.exchange-desc {
+  padding: 8px 16px;
+  font-family: 'THICCCBOI';
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.exchange-modal-tab {
+  span {
+    padding-left: 0 !important;
+  }
+}
+
+.deposit-form-btn {
+  span {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main {
+    width: 200%;
+    height: 200vh;
+  }
+  .navbar-container {
+    height: 198vh;
+  }
+}

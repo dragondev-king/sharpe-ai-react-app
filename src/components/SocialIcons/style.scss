@@ -1,0 +1,14 @@
+.social-icons {
+  width: 60%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 30px;
+
+  svg {
+    padding-right: 10%;
+    height: 15px;
+  }
+}

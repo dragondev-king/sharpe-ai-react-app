@@ -1,0 +1,106 @@
+@import '../../scss/variables';
+@import '../../scss/colors';
+
+$hover-color: #FF4A80;
+
+.navbar-container {
+  padding: 15px 12px;
+  min-height: $navbar-height;
+  position: relative;
+  
+  .navbar-wrapper {
+    background-color: rgba($color: #7D7E8B, $alpha: 0.1);
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .logo-container {
+      text-align: center;
+      margin-top: 25px;
+    }
+    
+    .navbar {
+      width: $navbar-width;
+      padding-left: 10px;
+      padding-top: 60px;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          background-color: transparent !important;
+        }
+      }
+
+      .menuicon {
+        fill: $dashboard-text-color;
+      }
+
+      .MuiMenuItem-root {
+        padding: 20px 0px 20px 10px !important;
+        &:hover {
+          background-color: transparent !important;
+        }
+        
+        .MuiSelect-icon {
+          position: initial;
+        }
+        &:hover {
+          .menuicon {
+            color: $hover-color;
+          }
+          svg {
+            fill: $hover-color;
+          }
+          span {
+            color: $hover-color;
+          }
+        }
+      }
+      
+
+      .item-wrapper {
+        padding-top: 20px;
+      }
+
+      .sub-group {
+        margin-top: -22px;
+        padding-left: 35px;
+        // margin-bottom: 27px;
+        color: $dashboard-text-color;
+
+        .MuiMenuItem-root {
+          height: 0px;
+
+          &:hover {
+            color: $hover-color;
+          }
+        }
+
+      }
+
+      span {
+        color: $dashboard-text-color;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 16px !important;
+      }
+    }
+  }
+}
+.selected {
+  color: $hover-color !important;
+  .menuicon {
+    color: $hover-color;
+  }
+  svg {
+    fill: $hover-color !important;
+  }
+  span {
+    color: $hover-color !important;
+  }
+}

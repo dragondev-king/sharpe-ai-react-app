@@ -1,0 +1,42 @@
+@import '../../../../scss/colors';
+
+.chart-wrapper {
+  background-color: #302C3F;
+  border-radius: 12px;
+  margin-top: 15px;
+
+  .title-wrapper {
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+
+    p {
+      color: #999CA3;
+      font-family: THICCCBOI;
+      font-size: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+
+    .date-wrapper {
+      margin-top: 15px;
+      cursor: pointer;
+      label {
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        margin: 0 4px;
+        background: #433D55;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .VictoryContainer {
+    border: none !important;
+  }
+
+}

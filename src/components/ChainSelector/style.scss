@@ -1,0 +1,41 @@
+@import '../../scss/colors';
+
+.select-wrapper {
+  // padding-top: 5px;
+  
+  .select {
+    color: white;
+    background-color: $chart-background-color;
+    border-radius: 12px;
+    border-color: transparent;
+    width: 160px;
+    height: 36px;
+
+    .MuiSelect-select {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.MuiPaper-root {
+  background-color: $chart-background-color !important;
+  color: white !important;
+  margin-top: 50px;
+  top: 25px !important;
+}
+
+.MuiSelect-icon {
+  color: white !important;
+}
+
+.MuiListItem-button:hover {
+  background-color: $background-color !important;
+}
+
+.MuiPaper-rounded {
+  border-radius: 20px !important;
+}
+span {
+  padding-left: inherit !important;
+}
